@@ -1,0 +1,15 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.mono{font-family:'JetBrains Mono','Courier New',monospace}.blink{animation:blink 1s infinite}@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}</style></defs>
+  <rect width="1200" height="430" fill="#000"/>
+  <rect x="110" y="50" width="980" height="330" rx="18" fill="#020617" stroke="#1E293B"/>
+  <rect x="110" y="50" width="980" height="46" rx="18" fill="#0B1120"/>
+  <circle cx="142" cy="73" r="7" fill="#EF4444"/><circle cx="166" cy="73" r="7" fill="#F59E0B"/><circle cx="190" cy="73" r="7" fill="#22C55E"/>
+  <text x="600" y="79" text-anchor="middle" fill="#64748B" font-size="14" class="mono">root@cyberops:~/research</text>
+  <text x="145" y="138" fill="#38BDF8" font-size="18" class="mono">root@cyberops:~# whoami</text>
+  <text x="145" y="170" fill="#CBD5E1" font-size="17" class="mono">CyberOps Lab — Open Source Security Research</text>
+  <text x="145" y="222" fill="#38BDF8" font-size="18" class="mono">root@cyberops:~# cat mission.txt</text>
+  <text x="145" y="254" fill="#CBD5E1" font-size="17" class="mono">Knowledge before exploitation. Research before assumptions. Defense before offense.</text>
+  <text x="145" y="306" fill="#38BDF8" font-size="18" class="mono">root@cyberops:~# ./initialize --modules</text>
+  <text x="145" y="338" fill="#22C55E" font-size="16" class="mono">[OK] OSINT  [OK] THREAT-INTEL  [OK] LINUX-AUTOMATION  [OK] DEFENSIVE-ENGINEERING</text>
+  <rect class="blink" x="145" y="354" width="12" height="22" fill="#38BDF8"/>
+</svg>

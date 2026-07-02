@@ -1,0 +1,41 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.35"/>
+      <stop offset="0.45" stop-color="#0F172A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#0EA5E9" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#0EA5E9" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono{font-family:'JetBrains Mono','IBM Plex Mono','Courier New',monospace;letter-spacing:1px}.title{font-family:'Inter','Arial',sans-serif;font-weight:800;letter-spacing:7px}.scan{animation:scan 5s linear infinite}.pulse{animation:pulse 2.8s ease-in-out infinite}.dash{stroke-dasharray:820;stroke-dashoffset:820;animation:draw 3s ease-out forwards}@keyframes scan{0%{transform:translateY(-130px);opacity:.0}15%{opacity:.8}85%{opacity:.8}100%{transform:translateY(380px);opacity:0}}@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}@keyframes draw{to{stroke-dashoffset:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="620" fill="#000000"/>
+  <rect width="1200" height="620" fill="url(#grid)"/>
+  <rect width="1200" height="620" fill="url(#glow)"/>
+  <path d="M70 88 H1130 M70 532 H1130" stroke="url(#stroke)" stroke-width="1.2"/>
+  <path class="dash" d="M96 130 H1104 V490 H96 V130Z" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="2" fill="none"/>
+  <line class="scan" x1="115" y1="0" x2="1085" y2="0" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="600" cy="205" r="88" fill="#030712" stroke="#38BDF8" stroke-width="2" filter="url(#blueGlow)"/>
+  <image href="https://i.postimg.cc/rpjbrMwQ/Chat-GPT-Image-Jul-3-2026-12-26-13-AM-compressed-80kb.jpg" x="524" y="129" width="152" height="152" preserveAspectRatio="xMidYMid slice"/>
+  <circle class="pulse" cx="600" cy="205" r="105" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5" fill="none"/>
+  <text x="600" y="360" text-anchor="middle" fill="#E2E8F0" font-size="48" class="title">CYBEROPS LAB</text>
+  <text x="600" y="398" text-anchor="middle" fill="#38BDF8" font-size="19" class="mono">OFFENSIVE SECURITY RESEARCH DIVISION</text>
+  <text x="600" y="450" text-anchor="middle" fill="#CBD5E1" font-size="18" class="mono">Research • Analyze • Build • Defend</text>
+  <rect x="430" y="472" width="340" height="38" rx="8" fill="#020617" stroke="#0EA5E9" stroke-opacity="0.65"/>
+  <circle cx="455" cy="491" r="5" fill="#22C55E" class="pulse"/>
+  <text x="475" y="497" fill="#93C5FD" font-size="14" class="mono">STATUS: ACTIVE RESEARCH</text>
+  <text x="104" y="115" fill="#38BDF8" fill-opacity="0.55" font-size="12" class="mono">BOOT://CYBEROPS-LAB</text>
+  <text x="928" y="515" fill="#38BDF8" fill-opacity="0.45" font-size="12" class="mono">ETHICAL_MODE=TRUE</text>
+</svg>

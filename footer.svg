@@ -1,0 +1,6 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="180" fill="#000"/>
+  <path d="M90 40 H1110 M90 140 H1110" stroke="#38BDF8" stroke-opacity="0.4"/>
+  <text x="600" y="84" text-anchor="middle" fill="#CBD5E1" font-family="JetBrains Mono, Courier New, monospace" font-size="18">Research before assumptions • Knowledge before exploitation • Defense before offense</text>
+  <text x="600" y="120" text-anchor="middle" fill="#38BDF8" font-family="JetBrains Mono, Courier New, monospace" font-size="15">CyberOps Lab</text>
+</svg>
